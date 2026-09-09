@@ -15,7 +15,6 @@
 %   preamble.tex         共享导言区: 宏包与样式, 整书和各章共用
 %   ch01-ubuntu-ros.tex       第 1 章 Ubuntu 与 ROS 简介
 %   ch02-ubuntu-commands.tex  第 2 章 Ubuntu 常用指令
-%   (可按需继续增加 ch03、ch04 ...)
 % ============================================================
 % 新增章节方法:
 %   1. 复制 ch01 的文件头格式, 新建 chNN-xxx.tex, 章标题写在文件内;
@@ -29,8 +28,8 @@
 % 从而决定是否需要补上 \documentclass 和 \begin{document}。
 \def\wholebook{}
 
-\title{ROS2操作系统学习记录}
-\author{魏舟}
+\title{ROS2系统学习记录}
+\author{未见归舟}
 \date{\today}
 
 \begin{document}
@@ -54,6 +53,7 @@
 
 \input{ch01-ubuntu-ros}
 \input{ch02-ubuntu-commands}
+\input{ch03-ubuntu-program}
 
 % 以后新增的章节文件, 请 \input 到对应分篇之下, 例如:
 % \part{进阶篇}
